@@ -1,0 +1,14 @@
+#home{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../imagens/plano_fundo_login.jpg");
+	background-size: cover;
+}
+.data{
+	background-image: url("../imagens/mini_calendario.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px;
+}

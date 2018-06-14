@@ -1,0 +1,32 @@
+#home{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../imagens/plano_fundo_login.jpg");
+	background-size: cover;
+}
+
+.perfil{
+	width: 70vw;
+	height: 70vh;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: absolute;
+	left: 15vw;
+	top: 10vw;
+	background:rgba(211,211,211,0.6);
+}
+.campos{
+	width: 20vw;
+	margin-left:10vw;
+	margin-top:5vh;
+	border-radius: 10px;
+}
+.botao{
+	position:relative;
+	top:10vh;
+	margin-left: 5vw;
+	left:19vw;
+	width: 8vw;
+}

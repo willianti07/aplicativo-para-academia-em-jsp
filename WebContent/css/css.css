@@ -1,0 +1,243 @@
+input{
+	padding-left: 30px;
+}
+#login{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../imagens/plano_fundo_home.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.area_login{
+	width: 30vw;
+	height: 20vw;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: absolute;
+	left: 35vw;
+	top: 30%;
+	background:rgba(211,211,211,0.2);
+
+}
+.area_cadastro{
+	width: 30vw;
+	height: 38vw;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: absolute;
+	left: 35vw;
+	top: 12%;
+	background:rgba(211,211,211,0.2);
+}
+.area_contatos{
+	width: 40vw;
+	height: 25vw;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: absolute;
+	left: 55vw;
+	top: 25%;
+	background:rgba(211,211,211,0.4);
+	color: white;
+	text-align: center;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+
+}
+.area_contatos2{
+	width: 40vw;
+	height: 25vw;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: absolute;
+	left: 5vw;
+	top: 25%;
+	background:rgba(211,211,211,0.4);
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+}
+
+.area_cadastro .campos{
+	position: relative;
+	width: 80%;
+	height: 20%;
+	margin-top: 10px;
+	left: 10%;
+	border-radius: 7px;
+
+}
+.area_login .campos{
+	position: relative;
+	width: 80%;
+	height: 20%;
+	margin-top: 10px;
+	left: 10%;
+	border-radius: 7px;
+
+}
+.area_login .btn{
+	position: relative;
+	width: 20%;
+	left: 30%;
+	margin-top: 25px;
+	text-align: center;
+	background-color: gray;
+}
+.area_cadastro .btn{
+	position: relative;
+	width: 20%;
+	left: 30%;
+	margin-top: 25px;
+	font-size: 15px;
+	background-color: gray;
+}
+.area_contatos2 h3{
+	position: relative;
+	left: 10%;
+
+}
+.area_login .btn:hover{
+    border : 1px solid black;
+}
+.area_cadastro .btn:hover{
+    border : 1px solid black;
+}
+.formulario{
+	position: relative;
+	top: 10%;
+}
+.formulario a {
+	text-decoration: none;
+}
+.formulario h1{
+	text-align: center;
+	color: white;
+}
+.menu_home{
+	position: relative;
+	float: right;
+	width: 180px;
+	height: 60px;
+	margin-top: -0.6%;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	top: 10px;
+	left: -10px;
+}
+.menu_home img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.esconde{
+	display: none;
+	position: relative;
+	width: 156px;
+	margin-top: -2px;
+	background:rgba(211,211,211,0.2);
+	left: 16px;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	border-bottom-left-radius: 10px;
+}
+.esconde li{
+	position: relative;
+	text-align: center;
+	left: -15px;
+	color: white;
+}
+.menu_home:hover .esconde{
+	color: green;
+	display: inline-block;
+}
+.esconde hr{
+height:2px; 
+border:none; 
+color:#000; 
+background-color:white; 
+margin-top: 0px; 
+margin-bottom: 0px; 
+position: relative;
+width: 155px;
+left: -41px;"
+}
+.menu{
+	width: 100vw;
+	height: 60px;
+	background:rgba(211,211,211,0.3);
+	border-bottom: 1px solid white;
+}
+.menu ul{
+	position: relative;
+	top: 10px;
+}
+.menu ul li{
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+.menu ul li a{
+	position: relative;
+	color: white;
+	font-size: 25px;
+	margin-right:10px;
+}
+.menu ul li a img {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	top: -5px;
+	margin-right: 2px;
+}
+.area_contatos img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.area_contatos2 img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.contatos{
+	position: relative;
+	top: 3%;
+}
+
+.contatos h2:hover{
+    text-shadow:#000 -2px -2px;
+}
+.contatos h3:hover{
+	text-shadow:#000 -2px -2px;
+}
+.contatos h4:hover{
+	text-shadow:#000 -2px -2px;
+}
+
+.login{
+	background-image: url("../imagens/login_icone.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px;
+}
+.senha{
+	background-image: url("../imagens/senha_icone.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px;
+}
+.email{
+	background-image: url("../imagens/email.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px;
+}
+
+
+
